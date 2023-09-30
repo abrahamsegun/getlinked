@@ -1,0 +1,26 @@
+@media only screen and (max-width: 391px) {
+    .main{
+        width: 390px;
+        background: #150E28;
+        height: 9046px; 
+    }
+    .purple svg{
+        width: 396px;
+        height: 442px;
+        flex-shrink: 0;
+    }
+    .vectornav{
+        width: 19px;
+        height: 14px;
+       position: absolute;
+       top: 36px;
+       left: 323px;
+
+    }
+    .metrix1{
+        display: none;
+    }
+    
+    
+    
+      }

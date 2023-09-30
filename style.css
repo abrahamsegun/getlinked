@@ -1,0 +1,4968 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+:root{
+    --primaryColor:#2196f3 ;
+    --background: #150E28;
+    --rectangle2:#150e28;
+    --rectangle4:#903aff;
+    --rectangle5:#D434FE;
+    
+}
+
+.main{
+    position: relative;    
+    width: 94.5rem;;
+    height: 565.375rem;
+    background-color: var(--background);
+   
+
+}
+.vectornav{
+    display: hidden;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 23.06rem;
+    padding-left:8rem;
+    padding-right: 8rem;
+    padding-top: 3.94rem;
+    align-items: center;
+}
+.logo{
+    color: #FFF;
+font-family: Clash Display;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 10.6875rem;
+height:2.75rem ;
+
+}
+.logo span{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: -.5rem;
+}
+.navDIV{
+    display: flex;
+   gap:7.56rem;
+   justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 44.75rem;
+height: 3.3125rem;
+flex-shrink: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 27.44rem;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+.nav li{
+    
+    width: min-content;
+}
+.nav li a{
+    color: #FFF;
+    font-family: Montserrat; 
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.registerBTN button{
+    width: 10.75rem;
+height: 3.3125rem;
+border-radius: 0.25rem;
+background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+flex-shrink: 0;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.star{
+    position: absolute;    
+    top: 13.06rem;
+    left: 11.56rem;
+    width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+.star1{
+    position: absolute;
+    top: 17.9rem;
+    left: 51.3rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.vector4{
+    background-image: url(./pictures/Vector\ 4.png);
+    position: absolute;
+    top: 13.7rem;
+    left: 73.6rem;
+    width: 15.8125rem;
+    height: 0.69019rem;
+    flex-shrink: 0;
+    stroke-width: 5px;
+    stroke: #FF26B9;
+}
+.inginte{
+    width: 46.375rem;
+    position: absolute;
+    top: 10.81rem;
+    left: 44.7rem;
+    width: 46.375rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.25rem;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+display: flex;
+justify-content: end;
+}
+.manshirt{
+    position: absolute;
+    top: 16.7rem;
+    left: 44.7rem;
+    right: -1.9rem;
+    width: 51.75rem;
+    height: 44.6875rem;
+flex-shrink: 0;
+}
+.image1{
+    position: absolute;
+    top: 16.1rem;
+    left: 48.8rem;
+    right: 4rem;
+    width: 41.6875rem;
+height: 40.0625rem;
+flex-shrink: 0;
+}
+.creactivity{
+    position: absolute;
+    top: 18.31rem;
+    right: 50.94rem;
+    width: 3.3125rem;
+    height: 4.5625rem;
+    flex-shrink: 0;
+}
+
+.T1{
+    position: absolute;
+    top: 21.25rem;
+    left: 8rem;
+    color: #FFF;
+font-family: Clash Display;
+font-size: 5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.T2 {
+    position: absolute;
+    top: 26.94rem;
+    right: 50.75rem;
+    left: 8.19rem;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width:35.5625rem;
+height: 6.125rem;
+}
+.T2 span{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 5rem;
+font-style: normal;
+font-weight: 700;
+padding-left:.95rem ;
+line-height: normal;
+}
+.chain{
+    position: absolute;
+    top: 27.5rem;
+    left: 44.12rem;
+}
+.fire{
+    position: absolute;
+    top: 28.38rem;
+    left:49.5rem ;
+}
+.purple{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 26.6rem;
+
+}
+.purplelens{
+  position: absolute;
+  top: 0;
+  left: 35.1rem;
+}
+.metrix1{
+    position: absolute;
+    top: 11.31rem;
+    left: 21.8rem;
+}
+.participate{
+    position: absolute;
+    top:33.56rem;
+    left: 8.19rem;
+    width:32.625rem;
+    height: 4.125rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.075rem ;
+}
+.registerBTN2 button{
+    position: absolute;
+    top:40.25rem;
+    left:8.25rem ;
+    width: 10.75rem;
+    height: 3.3125rem;
+    border-radius: 0.25rem;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.star2{
+    position:absolute;
+    top: 46.6rem;
+    left: 35.7rem;
+}
+.countdown{
+    position: absolute;
+    top: 48.4rem;
+    left: 8.19rem;
+    right: 68.12rem;
+    width: 18.1875rem;
+height: 5.3125rem;
+flex-shrink: 0;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.countdown p{
+    color: #FFF;
+    font-family: Unica One;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:5.32rem;
+    display: flex;
+}
+.countdown p span{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height:1.16375rem;
+display: flex;
+align-items: end;
+padding-bottom: 1.19rem;
+}
+
+.rectangle7{
+    position: absolute;
+    top: 59.6rem;
+    left: -1.6rem;
+    right: -1.3rem;
+    width: 97.4375rem;
+height: 38.5625rem;
+border: 1px solid rgba(255, 255, 255, 0.18);
+background: #140D27;
+flex-shrink: 0;
+}
+.bigIdeaimg{
+position: absolute;
+top: 3.14rem;
+left: 16rem;
+width: 30.625rem;
+height: 29.8125rem;
+flex-shrink: 0;
+}
+.bigidea {
+    position: absolute;
+    top: 18.11rem;
+    left: 26.47rem;
+    width: 9.05269rem;
+    height: 3.73463rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8375rem ;
+    flex-shrink: 0;
+}
+.puprle2{
+    position: absolute;
+    top: 22.81rem;
+    right: 31rem;
+    width: 64.8125rem;
+    height: 59.25rem;
+    flex-shrink: 0;
+}
+.purple3{
+    position: absolute;
+    top: 101rem;
+    left: 70.6rem;
+    right: -1.3rem;
+    width: 25.25rem;
+    height: 59.9375rem;
+    flex-shrink: 0;
+}
+.stargra img{
+    position: absolute;
+    top: 73.1rem;
+    left: 82.6remrem;
+    right: 10.1rem;
+    width: 1.3125rem;
+height: 1.5625rem;
+flex-shrink: 0;
+}
+.rect7Intro {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    width: 24.875rem;
+    height: 5.375rem;
+    position: absolute;
+    top:12.06rem;
+    left: 53.25rem;
+}
+.rect7Intro span{
+    color: #D434FE;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0%;
+}
+.rect7body{
+   position: absolute;
+   top:18.44rem ;
+   left:53.44rem ;
+   right: 10.56rem;
+   color: #FFF;
+   width: 33.4375rem;
+   height: 10.3125rem;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+
+}
+.star3 img{
+    position: absolute;
+    top: 73.1rem;
+    left: 82.6rem;
+    right: 10.1rem;
+    width: 1.875rem;
+height: 2.25rem;
+flex-shrink: 0;
+
+}
+.arrow img{
+     position: absolute; 
+     top: 90.2rem;
+     left:43.1rem ;
+    width: 3.08938rem;
+height: 3.62338rem;
+transform: rotate(-70.92deg);
+flex-shrink: 0;
+}
+.react7body2{
+    position: absolute;
+    top:113.2225rem ;
+    left: 11.5rem;
+    width: 33.4375rem;
+    height: 10.3125rem;
+    left: 11.5rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 196.429% */
+}
+
+.ruleandreg{
+    position: absolute;
+    top:106.8525rem ;
+    left:11.31rem ;
+color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+width: 10.625rem;
+height: 5.375rem;
+}
+.ruleandreg span{
+color: #D434FE;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+}
+
+.ruler{
+    position: absolute;
+    top: 98.2225rem;
+    width: 100%;
+    border: green solid 1px;
+}
+.womansit{
+position: absolute;
+top: 95.3rem;
+left: 47.9rem;
+width: 41.5rem;
+height: 41.5rem;
+flex-shrink: 0;
+}
+.star02 img{
+    position: absolute;    
+    top: 124rem;
+    left: 46.3rem;
+    width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+.starash img{
+    position: absolute;    
+    top: 105rem;
+    left: 27.4rem;
+    width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+.starpu02{
+    position: absolute;
+    top: 142rem;
+    left: 13.4rem;
+
+}
+.ellipse svg{
+    position: absolute;
+    top: 147rem;
+    left:10.2rem;
+    width: 8.375rem;
+height: 8.375rem;
+flex-shrink: 0;
+}
+.pie{
+    position: absolute;
+    top: 150rem;
+    left: 4.13rem;
+    width: 44.375rem;
+height: 36.6875rem;
+flex-shrink: 0;
+
+}
+.star002 img{
+    position: absolute;
+    top: 184rem;
+    left: 45.8rem;
+}
+.star101 img{
+    position: absolute;
+    top: 168rem;
+    left: 29.4rem;
+}
+.piePurple img{
+ position: absolute;
+ top: 165rem;
+ left: 55.8rem;
+ right: -26rem;
+ width: 64.8125rem;
+height: 59.25rem;
+flex-shrink: 0;
+}
+.piePurple1 img{
+    position: absolute;
+    top: 150rem;
+    left: -9.1rem;
+    width: 64.8125rem;
+   height: 59.25rem;
+   flex-shrink: 0;
+   }
+   .pieheader{
+    position: absolute;
+    top: 141.69rem;
+    left: 51.81rem;
+    color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+width: 16.6875rem;
+height: 5.375rem;
+   }
+.pieheader span{
+    color: #D434FE;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+
+}
+.samecolor span{
+color: #FF26B9;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 173.5%; /* 1.735rem */
+}
+.Adherence{
+    position: absolute;
+    top: 174.885rem;
+    left: 51.81rem;
+    width: 35.25rem;
+    height: 4.6875rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+}
+.technical{
+    position: absolute;
+  top: 168.4475rem;
+  left: 51.81rem;
+   width: 34.875rem;
+    height: 4.6875rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 173.5%;
+}
+.impact{
+    position: absolute;
+    top: 160.82rem;
+    left: 51.81rem;
+   width: 32.75rem;
+    height: 6.1875rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 173.5%;
+}
+.functionality{
+    position: absolute;
+  top: 154.4425rem;
+  left: 51.81rem;
+     width: 31.8125rem;
+    height: 4.6875rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 173.5%;
+}
+.innovation{
+  position: absolute;
+  top: 148.375rem;
+  left: 51.81rem;
+    width: 33.3125rem;
+    height: 4.6875rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 173.5%;
+}
+.rectangle7Button{
+   position: absolute;
+   top: 183rem;
+   right: 31.9rem;
+   width: 10.75rem;
+height: 3.3125rem;
+flex-shrink: 0;
+}
+.rectangle7Button button{
+    width: 100%;
+    height: 100%;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+.line1{
+    position: absolute;
+   top: 12.1rem;
+   left: 38.8rem;
+   width: 0.25rem;
+height: 8.5625rem;
+background: #D434FE;
+}
+.line2{
+    position: absolute;
+   top: 25.9rem;
+   left: 38.8rem;
+   width: 0.25rem;
+height:  5.375rem;
+background: #D434FE;
+}
+.line3{
+    position: absolute;
+    top: 36rem;
+    left: 38.8rem;
+    width: 0.25rem;
+ height: 5.375rem;
+ background: #D434FE;
+}
+.line4{
+    position: absolute;
+    top: 46.1rem;
+    left: 38.8rem;
+    width: 0.25rem;
+ height: 5.375rem;
+ background: #D434FE;
+}
+.line5{
+    position: absolute;
+   top: 56.3rem;
+   left: 38.8rem;
+   width: 0.25rem;
+height:5.375rem;
+background: #D434FE;
+}
+.line6{
+    position: absolute;
+   top: 66.3rem;
+   left: 38.8rem;
+   width: 0.25rem;
+height:5.375rem;
+background: #D434FE;
+}
+
+.qn01{
+    position: absolute;
+    top: 207.25rem;
+    left:13.44rem ;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    width: 15.8125rem;
+    height: 5.375rem;
+}
+.qn01 span{
+    color: #D434FE;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0%;
+}
+.qn02{
+    position: absolute;
+    top:213.625rem ;
+    left:13.69rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 196.429% */
+width: 21.375rem;
+height: 3.4375rem;
+}
+.qn02 span{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.71875rem;
+}
+.flex01{
+    position:absolute;
+    top: 221.3125rem;
+    left:13.69rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    color: #FFF;
+    width: 26.6875rem;
+    height: 1.75rem;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+}
+.flex01 span{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 137.5% */
+}
+.flex02{
+    position:absolute;
+    top: 225.44rem;
+    left:13.69rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    color: #FFF;
+    width: 26.6875rem;
+    height: 1.75rem;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+padding-bottom: .0.81rem; 
+}
+.flex02 span{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 137.5% */
+}
+.flex03{
+    position:absolute;
+    top:229.56rem ;
+    left:13.69rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    color: #FFF;
+    width: 26.6875rem;
+    height: 1.75rem;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+}
+.flex03 span{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 137.5% */
+}
+.flex04{
+    position:absolute;
+    top:233.69rem ;
+    left:13.69rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    color: #FFF;
+    width: 26.6875rem;
+    height: 1.75rem;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+}
+
+.flex04 span{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 137.5% */
+}
+.flex05{
+    position:absolute;
+    top:237.81rem;
+    left:13.69rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    color: #FFF;
+    width: 26.6875rem;
+    height: 1.75rem;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+}
+.flex05 span{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 137.5% */
+}
+.flex06{
+    position:absolute;
+    top:241.93rem;
+    left:13.69rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1.5rem ;
+    color: #FFF;
+    width: 26.6875rem;
+    height: 1.75rem;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; 
+}
+.flex06 span{
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 137.5% */
+}
+.flex01 p{
+    width:24.375rem ;
+    height:1.75rem ; 
+ }
+ .flex02 p{
+    width: 22.5625rrem;
+    height:1.75rem ; 
+ }
+ .flex03 p{
+    width:22.1875rem ;
+    height:1.75rem ; 
+ }
+ .flex04 p{
+    width:21.3125rem ;
+    height:1.75rem ; 
+ }
+ .flex05 p{
+    width: 17.75rem;
+    height:1.75rem; 
+ }
+ .flex06 p{
+    width:24.375rem ;
+    height:1.75rem ; 
+ }
+.flexborder{
+   padding-bottom: 0.8rem;
+    width: fit-content;
+    border: white 20px;
+    width: 26.6875rem;
+   border-bottom: 0.06rem solid #D434FE;
+}
+.thinkman{
+    position: absolute;
+    top: 205rem;
+    left: 41.9rem;
+    width: 46.3125rem;
+height: 46.3125rem;
+flex-shrink: 0;
+
+}
+.thinkpurple{
+    position: absolute;
+    top: 203rem;
+    left: 63.8rem;
+}
+.thinkpurple2{
+    position: absolute;
+    top: 213rem;
+    left: 51.2rem;
+}
+.thinkwhite{
+    position: absolute;
+    top: 228rem;
+    left: 45rem;
+}
+.thinkwhite2{
+    position: absolute;
+    top: 250rem;
+    left: 76.6rem;
+
+}
+.oneq{
+    position: absolute;
+    right:39.13rem ;
+     top:204.63rem ;   
+ width: 7.125rem;
+height: 4.4375rem;
+flex-shrink: 0;
+    color: #A866FD;
+    font-family: MADE TOMMY Outline;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.71875rem; /* 28.646% */
+}
+.oneq2{
+    position: absolute;
+    right:19rem ;
+     top:204.63rem ;   
+ width: 7.125rem;
+height: 4.4375rem;
+flex-shrink: 0;
+    color: #A866FD;
+    font-family: MADE TOMMY Outline;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.71875rem;
+}
+.oneq3{
+    position: absolute;
+    right:30.06rem ;
+     top:201.63rem ;   
+ width: 7.125rem;
+height: 4.4375rem;
+flex-shrink: 0;
+    color: #A866FD;
+    font-family: MADE TOMMY Outline;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.71875rem;
+}
+.timeline{
+    position: absolute;
+    top: 259rem;
+    left: 8.69rem;
+    width: 77.0625rem;
+    height: 79.875rem;
+    flex-shrink: 0;
+    color: white;
+}
+.timepurple{
+    position: absolute;
+    top: 12.1rem;
+    left: 12.4rem;
+}
+.getlinkBody{
+    position: absolute;
+    top:63.75rem ;
+    left:7.75rem ;
+    color: #FFF;
+    width:24.125rem;
+    height: 3.375rem;
+text-align: right;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height:  1.709rem ;
+}
+.timeash{
+    position: absolute;
+    top: 73.3rem;
+    left: 2.38rem;
+}
+.timewhite{
+    position: absolute;
+    top: 41.4rem;
+    left: 67.6rem;
+}
+.timelineHeader{
+    position: absolute;
+    top: 0;
+    left: 34.19rem;
+    color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+}
+.timeBody{
+    position: absolute;
+    top: 3.44rem;
+    left: 27.75rem;
+    color: #FFF;
+    width:21.625rem ;
+    height: 3rem;
+text-align: center;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5085rem
+}
+.circle1{
+    position: absolute;
+    top:21.4rem ;
+    left: 37.3rem;
+width: 3.3125rem;
+height: 3.3125rem;
+flex-shrink: 0;
+border-radius: 1.65625rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+.circle2{
+    position: absolute;
+    top:32rem ;
+    left: 37.3rem;
+    width: 3.3125rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.65625rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+.circle3{
+    position: absolute;
+    top:42.1rem ;
+    left: 37.3rem;
+    width: 3.3125rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.65625rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+.circle4{
+    position: absolute;
+    top:52.1rem ;
+    left: 37.3rem;
+    width: 3.3125rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.65625rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+.circle5{
+    position: absolute;
+    top:62.3rem ;
+    left: 37.3rem;
+    width: 3.3125rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.65625rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+.circle6{
+    position: absolute;
+    top:72.4rem ;
+    left: 37.3rem;
+    width: 3.3125rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.65625rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+#hackHeader{
+position: absolute;
+top: 19.69rem;
+left: 10.44rem;
+color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 21.4375rem;
+height: 1.8125rem;
+
+}
+#hackBody{
+ position: absolute;
+ top: 22.25rem;
+ left: 4.62rem;
+ width: 27.25rem;
+ height: 3rem;
+ color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height:  1.49538rem; 
+text-align: right;
+width: 27.25rem;
+height: 3rem;
+}
+#novem{
+position: absolute;
+top: 32.75rem;
+left: 17.12rem;
+color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 14.75rem;
+height: 1.8125rem;
+}
+
+#teams{
+    position: absolute;
+    top: 40.31rem;
+    left: 12.44rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 19.4375rem;
+height: 1.8125rem;
+}
+#intersted{
+    position: absolute;
+    top: 42.87rem;
+    left: 7.62rem;
+    color: #FFF;
+text-align: right;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height:  1.709rem;
+width: 24.25rem;
+height: 3.375rem;
+}
+#novem2{
+    position: absolute;
+    top: 52.87rem;
+    left: 17.12rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 31.9375rem;
+height: 1.8125rem;
+width: 14.75rem;
+height: 1.8125rem;
+}
+#getlink{
+    position: absolute;
+    top: 61.19rem;
+    left: 0;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 31.9375rem;
+height: 1.8125rem;
+}
+#getlinkBody{
+    position: absolute;
+    top: 63.75rem;
+    left: 7.75rem;
+    color: #FFF;
+text-align: right;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height:1.709rem;
+width: 24.125rem;
+height: 3.375rem;
+}
+#novem3{
+    position: absolute;
+    top: 73.44rem;
+    left: 17.12rem;
+    color: #FFF;
+text-align: right;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.709rem ;
+width: 14.75rem;
+height: 1.8125rem;
+}
+#asidenov{
+    position: absolute;
+    top: 22.5rem;
+    left: 46.69rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 31.9375rem;
+height: 1.8125rem;
+width: 14.75rem;
+height: 1.8125rem;  
+}
+#asidenov2{
+    position: absolute;
+    top:43.31rem;
+    left: 46.69rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 31.9375rem;
+height: 1.8125rem;
+width: 14.75rem;
+height: 1.8125rem;
+}
+#teammanage{
+    position: absolute;
+    top:30.69rem;
+    left: 46.69rem;  
+
+color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+#asideinterest{
+position: absolute;
+top: 33.25rem;
+left: 46.69rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 170.9%; /* 1.709rem */
+}
+#announce{
+    position: absolute;
+    top: 50.81rem;
+    left: 46.69rem;
+    color: #D434FE;
+    width: 30.375rem;
+    height: 3.625rem;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#asideall{
+    position: absolute;
+    top: 54.88rem;
+    left: 46.69rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height:1.709rem ;
+}
+#asidenov3{
+    position: absolute;
+    top:63.31rem;
+    left: 46.69rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 31.9375rem;
+height: 1.8125rem;
+width: 14.75rem;
+height: 1.8125rem;
+
+}
+#demoday{
+position: absolute;
+top: 70.75rem;
+left: 46.69rem;
+color: #D434FE;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#lastdiv{
+   position: absolute;
+   top: 74.81rem;
+   left: 46.69rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%; /* 1.709rem */ 
+}
+.testimonials{
+    position: absolute;
+    top: 342rem;
+    left: -1.1rem;
+    right: -1.8rem;
+width: 97.375rem;
+height: 78.125rem;
+flex-shrink: 0;
+
+}
+.premiumphoto{
+    position:absolute;
+    top: 4.19rem;
+    bottom: 14.9rem;
+    width: 100%;
+height: 59.0625rem;
+flex-shrink: 0;
+}
+.premiumphoto p{
+    position: absolute;
+    top: 10.5rem;
+    left: 53.69rem;
+    width: 25.0625rem;
+height: 3.1875rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.709rem ;
+}
+.testipurple1 img{
+position: absolute;
+top: 0;
+left: 1.3rem;
+right: 31.4rem;
+width: 64.8125rem;
+height: 59.25rem;
+flex-shrink: 0;
+}
+.testipurple2 img{
+position: absolute;
+top: 18.2rem;
+left: 71.7rem;
+width: 25.25rem;
+height: 59.9375rem;
+}
+.pR{
+    width: 10.875rem;
+    height: 4.875rem;
+position: absolute;
+top: 8.81rem;
+left: 53.62rem;
+color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.pR span{
+    color: #D434FE;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cup1{
+    position: absolute;
+    top: 362rem;
+    left: 6.63rem;
+    width: 34.25rem;
+height: 30.125rem;
+flex-shrink: 0;
+}
+.silver{
+    position: absolute;
+    top: 24.94rem;
+    left: 45.31rem;
+    width: 11.1875rem;
+    height: 11.25rem;
+    flex-shrink: 0;  
+}
+.silverdiv{
+    position: absolute;
+    top: 30.19rem;
+    left: 44.31rem;
+    width: 13.25rem;
+    height: 18.5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+border: 1px solid #D434FE;
+background: rgba(212, 52, 254, 0.12);
+}
+.digit2{
+    position: absolute;
+    top: 6.94rem;
+    left: 4.38rem;
+    width: 4.5rem;
+    height: 4.875rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 4.869rem */
+}
+.ruuner{
+    position: absolute;
+    top: 9.94rem;
+    left: 3.75rem;
+    width: 5.75rem;
+    height: 3.35rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 216.4%; /* 3.246rem */
+}
+.money300{
+    position: absolute;
+    top: 12.13rem;
+    left: 1.56rem;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 4.328rem */
+}
+.WIN{
+    position: absolute;
+    top: 18.88rem;
+    left: 56.81rem;
+    width: 18.5rem;
+height: 18.5rem;
+flex-shrink: 0;
+}
+.gold{
+    position: absolute;
+    top:28.06rem;
+    left: 59.14rem;
+    width: 13.25rem;
+height: 21.6875rem;
+border-radius: 0.5rem;
+border: 1px solid #903AFF;
+background: rgba(144, 58, 255, 0.12);
+}
+.first{
+  position: absolute;
+  top: 9.31rem;
+  left: 4.94rem;
+  color: #FFF;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 3.246rem ;
+
+}
+.Winrunner{
+    position: absolute;
+    top: 12.81rem;
+    left:3.75rem ;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 216.4%; /* 3.246rem */
+}
+.money400{
+position: absolute;
+top: 16.06rem;
+left: 1.5rem;
+color: #903AFF;
+font-family: Montserrat;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.328rem;
+}
+.thirdBronze{
+    position: absolute;
+    top: 25.62rem;
+    right:10.81rem ;
+}
+.Bronediv{
+    position: absolute;
+    top: 30.19rem;
+    left: 74.31rem;
+    width: 13.25rem;
+    height: 18.5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+border: 1px solid #D434FE;
+background: rgba(212, 52, 254, 0.12);
+
+}
+.digit3{
+    position: absolute;
+    top: 6.94rem;
+    left: 4.69rem;
+    width: 4.5rem;
+    height: 4.875rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 216.4%; /* 4.869rem */ 
+}
+.runner3{
+    position: absolute;
+    top: 9.94rem;
+    left: 3.75rem;
+    width: 5.75rem;
+    height: 3.35rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 216.4%; /* 3.246rem */
+}
+.money150{
+    position: absolute;
+top: 12.13rem;
+left: 1.88rem;
+color: #903AFF;
+font-family: Montserrat;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 4.328rem;
+}
+.testimonialgra1{
+    position: absolute;
+    top: 9.13rem;
+    left: 20.88rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+  
+}
+.testipurple1{
+    position: absolute;
+    top: 54.6rem;
+    left: 72.6rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.testimonailwhitestar{
+    position: absolute;
+    top: 29.6rem;
+    left: 87rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.testimonailwhitestar2{
+    position: absolute;
+    top: 43.5rem;
+    left: 37rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.testimonailwhitestar{
+    position: absolute;
+    top: 29.6rem;
+    left: 87rem;
+}
+.premiumWhiteStar{
+    position: absolute;
+    top: 48.69rem;
+    left: 20.31rem;
+    width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+}
+.hiddenstar img{
+    position: absolute;
+    top:364.59rem ;
+    left: 64.2rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.hidden2star{
+    position: absolute;
+    top: 363rem;
+    left: 46.8rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.sponsorp2{
+position: absolute;
+top: 425rem;
+left: 59.1rem;
+width: 64.8125rem;
+height: 59.25rem;
+flex-shrink: 0;
+
+
+}
+.sponsorp1{
+    position: absolute;
+    top: 396rem;
+    left: -14rem;
+    width: 64.8125rem;
+height: 59.25rem;
+flex-shrink: 0;
+}
+.PandRs{
+position: absolute;
+top: 412.25rem;
+left: 35.5rem;
+color: #FFF;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.71875rem; 
+}
+.PandRbody{
+    position: absolute;
+    top: 415.38rem;
+    left: 33.12rem;
+    color: #FFF;
+    width:28.25rem;
+    height: 3.4375rem;
+text-align: center;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 196.429% */
+}
+.rectangle22{
+    position: absolute;
+    top: 422.88rem;
+    left: 8rem;
+    width: 78.4375rem;
+height: 35rem;
+border-radius: 0.3125rem;
+border: 1px solid #D434FE;
+background: rgba(255, 255, 255, 0.01);
+flex-shrink: 0;
+}
+.partnerandsponsordiv{
+    position: absolute;
+    top: 422.88rem;
+    left: 8rem;
+    width: 78.4375rem;
+    height:35rem ;
+}
+.rectangle22box{
+    position: absolute;
+    top:9rem;
+    left: 11.9rem;
+
+    width:56.14602rem ;
+    height: 17rem;
+}
+.boxdiv001{
+    position: absolute;
+    top: 0;
+    left: 3.86rem;
+    width: 7.53513rem;
+height: 7.12163rem;
+flex-shrink: 0;
+}
+.boxdiv002{
+    position: absolute;
+    bottom: 12.45rem;
+    left: 21.18rem;
+    width: 13.32431rem;
+height: 2.527rem;
+flex-shrink: 0;
+}
+.boxdiv003{
+    position: absolute;
+    left: 43.97rem;
+    bottom: 10.29rem;
+    width: 8.22431rem;
+height: 6.70813rem;
+flex-shrink: 0;
+}
+.boxdiv004{
+    position: absolute;
+    top: 10.15rem;
+     left: 3.12rem;
+     width: 9.18919rem;
+     height: 6.84594rem;
+     flex-shrink: 0;
+}
+.boxdiv005{
+position: absolute;
+top: 12.96rem;
+left: 21.46rem;
+ /* width: 12.773rem; */
+height: 1.2865rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Typo Hoop Demo;
+font-size: 3.1875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 53.922% */
+}
+.boxdiv005 span{
+    color: #00A3FF;
+font-family: Typo Hoop Demo;
+font-size: 3.1875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem;
+}
+.boxdiv006{
+position: absolute;
+top: 12.94rem;
+left: 41.12rem;
+width: 14.4375rem;
+height: 1.3125rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Voces;
+font-size: 2.5625rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 67.073% */
+
+}
+.boxdiv006 span{
+    color: #F00;
+font-family: Volkhov;
+font-size: 2.5625rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem;
+}
+.boxdiv007{
+position: absolute;
+top: 14.44rem;
+left: 50.07rem;
+width: 4.9375rem;
+height: 1.3125rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Voces;
+font-size: 0.6875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 250% */
+}
+.boxeline1{
+    position: absolute;
+    top: 0;
+    left: 18.1rem;
+    width: 0.25rem;
+height: 7.02975rem;
+background: #D434FE;
+}
+
+.boxeline2{
+    position: absolute;
+    top: 0;
+    left: 38.1rem;
+    width: 0.25rem;
+height: 7.02975rem;
+background: #D434FE;
+}
+.boxeline3{
+    position: absolute;
+    top: 8.73rem;
+    left: 0;
+    width: 16.08113rem;
+height: 0.25rem;
+background: #D434FE;
+}
+.boxeline4{
+    position: absolute;
+    top: 8.73rem;
+    left: 19.8rem;
+    width: 16.08113rem;
+height: 0.25rem;
+background: #D434FE;
+}
+.boxeline5{
+ position: absolute;
+top: 8.73rem;
+left: 40.1rem;
+width: 16.08113rem;
+height: 0.25rem;
+background: #D434FE;
+    }
+.boxeline6{
+    position: absolute;
+    top: 9.97rem;
+    left: 18.1rem;
+    width: 0.25rem;
+height: 7.02975rem;
+background: #D434FE;
+        }
+.boxeline7{
+    position: absolute;
+    top: 9.97rem;
+    left: 38.1rem;
+    width: 0.25rem;
+height: 7.02975rem;
+background: #D434FE;
+        }
+
+.boxstar1{
+    position: absolute;
+    top: 451rem;
+    left: 52.5rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.boxstar2{
+    position: absolute;
+    top: 429rem;
+    left: 52.7rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.boxstar3{
+    position: absolute;
+    top: 420rem;
+    left: 12.9rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.PPand{
+    position: absolute;
+    top: 476.44rem;
+    left: 11.69rem;
+    width: 18.75rem;
+    height: 4.875rem;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.PPand span{
+ color: #D434FE;
+font-family: Clash Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.PPand01{
+    position: absolute;
+    top: 482.37rem;
+    left: 11.69rem;
+    width: 16.125rem;
+    height: 1.75rem;
+    color: rgba(255, 255, 255, 0.75);
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.71875rem; /* 196.429% */
+}
+.PPand02{
+    position: absolute;
+    top: 486rem;
+    left: 11.69rem;
+    width: 27.375rem;
+    height: 3.25rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 188.4%; /* 1.6485rem */
+}
+.rectangle24{
+    position: absolute;
+    top: 494rem;
+    left: 11.7rem;
+    width: 35.5625rem;
+height: 38rem;
+border-radius: 0.3125rem;
+border: 1px solid #D434FE;
+background: rgba(217, 217, 217, 0.03);
+flex-shrink: 0;
+}
+.lastpurple{
+    position: absolute;
+    top: 499rem;
+    left: -12rem;
+    width: 64.8125rem;
+height: 59.25rem;
+flex-shrink: 0;
+}
+.atGetlink{
+    position: absolute;
+    top: 3.69rem;
+    width: 26.5625rem;
+    height: 11.25rem;
+    margin: 0 4.5rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 216.4%; /* 1.8935rem */
+}
+.atGetlink1{
+    position: absolute;
+    top: 16.44rem;
+    left: 4.56rem;
+    width:8.5rem ;
+    height: 2.1875rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 216.4%; /* 2.164rem */
+}
+.atGetlink2{
+   position: absolute;
+   top: 18.44rem;
+   left: 4.56rem;
+   height: 1.875rem;
+   width: 18.1875rem;
+   color: #FFF;
+   font-family: Montserrat;
+   font-size: 0.875rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 216.4%; /* 1.8935rem */
+}
+.atGetlink3{
+    position: absolute;
+    top: 21.44rem;
+    left: 6.69rem;
+    width: 25.0625rem;
+    height: 3.75rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 216.4%; /* 1.8935rem */
+}
+.atGetlink4{
+    position: absolute;
+    top: 26.31rem;
+    left: 6.69rem;
+    width: 26.4375rem;
+    height: 3.75rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 216.4%; /* 1.8935rem */
+}
+.check1{
+  position: absolute;
+  top: 21.81rem;
+  left: 4.75rem;
+  width: 1.0625rem;
+height: 1.0625rem;
+flex-shrink: 0;
+}
+.check2{
+    position: absolute;
+    top: 26.69rem;
+    left: 4.75rem;
+    width: 1.0625rem;
+  height: 1.0625rem;
+  flex-shrink: 0;
+}
+.vector1 svg{
+    position: absolute;
+    top: 472rem;
+    left: 53.7rem;
+    width: 33.125rem;
+height: 40.5rem;
+flex-shrink: 0;
+fill: linear-gradient(180deg, rgba(144, 58, 255, 0.14) 0%, rgba(255, 38, 185, 0.14) 100%);
+}
+.lockimg{
+    position: absolute;
+    top: 484rem;
+    left: 50.4rem;
+    width: 34.9375rem;
+height: 46.8125rem;
+flex-shrink: 0;
+}
+.sata01{
+ position: absolute;
+ top: 509rem;
+ left: 61.9rem;
+    width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;    
+
+}
+.sata02{
+    position: absolute;
+    top: 482rem;
+    left: 79.1rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+
+}
+.sata03{
+    position: absolute;
+    top: 516rem;
+    left: 57.6rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+
+}
+.sata04{
+    position: absolute;
+    top: 548rem;
+    left: 6.56rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+
+}
+
+.sata05{
+    position: absolute;
+    top: 556rem;
+    left: 86.1rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+
+}
+.sata06{
+    position: absolute;
+    top: 559rem;
+    left: 46.3rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+
+}
+.sata07{
+    position: absolute;
+    top: 548rem;
+    left: 66.7rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+
+}
+.sata08{
+    position: absolute;
+    top: 519rem;
+    left: 87.1rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.sata09{
+    position: absolute;
+    top: 476rem;
+    left: 32.1rem;
+    width: 1.625rem;
+height: 2rem;
+flex-shrink: 0;
+}
+.sata10{
+    position: absolute;
+    top: 483rem;
+    left: 45.8rem;
+    width: 1.4375rem;
+height: 1.75rem;
+flex-shrink: 0;
+}
+.registerend{
+    position: absolute;
+    top: 525rem;
+    left: 24.1rem;
+    width: 10.75rem;
+height: 3.3125rem;
+border-radius: 0.25rem;
+background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+flex-shrink: 0;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+.sata11{
+    position: absolute;
+    top: 518rem;
+    left: 6.25rem;
+    width: 1.875rem;
+height: 2.25rem;
+flex-shrink: 0;
+}
+.rectangle23{
+    position: absolute;
+    top: 542rem;
+    left: -.9rem;
+    width: 96.5625rem;
+height: 24.5625rem;
+background: #100B20;
+flex-shrink: 0;
+}
+.footer{
+    position: absolute;
+    top: 4.38rem;
+    left: 14.69rem;
+    width: 67rem;
+height: 12.5625rem;
+flex-shrink: 0;
+color: red;
+/* background-color: green; */
+}
+.footerdiv1{
+position: absolute;
+top: 0rem;
+left: 0rem;
+width:9.94rem ;
+width: fit-content;
+color: #FFF;
+font-family: Clash Display;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footerdiv1 span{
+
+    color: #D434FE;
+font-family: Clash Display;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.footerdiv2{
+    position: absolute;
+    top: 7.06rem;
+    left: 14.69rem;
+    width:25.7525rem ;
+    height:3.9425rem ;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%; /* 1.293rem */
+}
+.footerdiv3{
+position: absolute;
+top: 11.25rem;
+left: 0;
+ width: 11.625rem;
+height: 1.3125rem;
+display: flex;
+justify-content: space-between;
+color: white;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%; /* 1.293rem */
+}
+
+#span{
+    width: 0.125rem;
+    height: 1.0625rem;
+    background: #D434FE;
+}
+.footerdiv4{
+position: absolute;
+top: 0.81rem;
+left: 37.69rem;
+height: 1.5rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 172.4%; /* 1.5085rem */
+}
+.footerdiv5{
+position: absolute;
+top: 2.69rem;
+left: 37.69rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%; /* 1.293rem */
+}
+.footerdiv13{
+    position: absolute;
+    top: 4.69rem;
+    left: 37.69rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%; /* 1.293rem */
+}
+.footerdiv6{
+    position: absolute;
+    top: 6.75rem;
+    left: 37.69rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%; /* 1.293rem */
+}
+.footerdiv7{
+    position: absolute;
+    top: 8.81rem;
+    left: 37.69rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%; /* 1.293rem */
+}
+.footerdiv8{
+    position: absolute;
+    top: 11.25rem;
+    left: 37.69rem;
+    color: #D434FE;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mediaicons{
+    position: absolute;
+    top:15.25rem;
+    left: 57rem;
+    width: 8.0625rem;
+height: 1.5rem;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.insta svg{
+margin: 0;
+    width: 1.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+}
+.twitter svg{
+    
+    width: 1.1875rem;
+   height: 1.0625rem;
+   flex-shrink: 0;
+   fill: #FFF;
+}
+.facebook svg{
+
+    width: 0.65625rem;
+height: 1.25rem;
+flex-shrink: 0;
+fill: #F8F8F8;
+}
+.linken svg{
+    width: 1.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+}
+.footerdiv9{
+position: absolute;
+top: 0.81rem;
+left: 59.5rem;
+color: #D434FE;
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 172.4%; /* 1.5085rem */
+}
+.footerdiv10{
+position: absolute;
+top: 3.5rem;
+left: 61.44rem;
+width: 5.5rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footerdiv11{
+    position: absolute;
+    left: 61.44rem;
+    top: 5.81rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 157.9%; /* 1.18425rem */
+width: 5.5625rem;
+height: 3.5625rem;
+}
+.vector22 svg{
+    position: absolute;
+    top: 8rem;
+    left: 74.38rem;
+
+}
+.vector33 svg{
+    position: absolute;
+    top: 10.3rem;
+    left: 74.44rem;
+    width: 0.8125rem;
+height: 0.9375rem;
+fill: #F8F8F8;
+flex-shrink: 0;
+}
+
+.sata001{
+    position: absolute;
+    top: 17.62rem;
+    left: 47.25rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+}
+.sata77{
+    position: absolute;
+    top: 6.19;
+    left: 67.63rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+}
+.sata44{
+    position: absolute;
+    top: 6.69rem;
+    left: 7.5rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+}
+.sata55{
+    position: absolute;
+    top: 14.69rem;
+    left: 87.06rem;
+    width: 0.9375rem;
+height: 1.125rem;
+flex-shrink: 0;
+}
+.footerdiv12{
+    position: absolute;
+    top: 20.25rem;
+    left: 41.5rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+/* media query */
+@media only screen and (max-width: 391px) {
+    .main{
+        width: 390px;
+        background: #150E28;
+        height: 9046px; 
+    }
+    .purple svg{
+        width: 396px;
+        height: 442px;
+        flex-shrink: 0;
+    }
+    .vectornav{
+        width: 19px;
+        height: 14px;
+       position: absolute;
+       top: 36px;
+       left: 323px;
+    }
+    
+
+
+    .vectornav{
+        display: inline;
+    }
+    .navbar{
+        display: none;
+    }
+    .logo{
+        color: #FFF;
+font-family: Clash Display;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    
+    }
+    .logo span{
+        color: #D434FE;
+        font-family: Clash Display;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .registerBTN button{
+        width: 10.75rem;
+    height: 3.3125rem;
+    border-radius: 0.25rem;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .star{
+        position: absolute;    
+        top: 13.06rem;
+        left: 11.56rem;
+        width: 1.625rem;
+        height: 2rem;
+        flex-shrink: 0;
+    }
+    .star1{
+        position: absolute;
+        top: 17.9rem;
+        left: 51.3rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .vector4{
+        background-image: url(./pictures/Vector\ 4.png);
+        position: absolute;
+        top: 13.7rem;
+        left: 73.6rem;
+        width: 15.8125rem;
+        height: 0.69019rem;
+        flex-shrink: 0;
+        stroke-width: 5px;
+        stroke: #FF26B9;
+    }
+    .inginte{
+        width: 46.375rem;
+        position: absolute;
+        top: 10.81rem;
+        left: 44.7rem;
+        width: 46.375rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: end;
+    }
+    .manshirt{
+        position: absolute;
+        top: 16.7rem;
+        left: 44.7rem;
+        right: -1.9rem;
+        width: 51.75rem;
+        height: 44.6875rem;
+    flex-shrink: 0;
+    }
+    .image1{
+        position: absolute;
+        top: 16.1rem;
+        left: 48.8rem;
+        right: 4rem;
+        width: 41.6875rem;
+    height: 40.0625rem;
+    flex-shrink: 0;
+    }
+    .creactivity{
+        position: absolute;
+        top: 18.31rem;
+        right: 50.94rem;
+        width: 3.3125rem;
+        height: 4.5625rem;
+        flex-shrink: 0;
+    }
+    
+    .T1{
+        position: absolute;
+        top: 21.25rem;
+        left: 8rem;
+        color: #FFF;
+    font-family: Clash Display;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .T2 {
+        position: absolute;
+        top: 26.94rem;
+        right: 50.75rem;
+        left: 8.19rem;
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width:35.5625rem;
+    height: 6.125rem;
+    }
+    .T2 span{
+        color: #D434FE;
+        font-family: Clash Display;
+        font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    padding-left:.95rem ;
+    line-height: normal;
+    }
+    .chain{
+        position: absolute;
+        top: 27.5rem;
+        left: 44.12rem;
+    }
+    .fire{
+        position: absolute;
+        top: 28.38rem;
+        left:49.5rem ;
+    }
+    .purple{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 26.6rem;
+    
+    }
+    .purplelens{
+      position: absolute;
+      top: 0;
+      left: 35.1rem;
+    }
+    .metrix1{
+        position: absolute;
+        top: 11.31rem;
+        left: 21.8rem;
+    }
+    .participate{
+        position: absolute;
+        top:33.56rem;
+        left: 8.19rem;
+        width:32.625rem;
+        height: 4.125rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.075rem ;
+    }
+    .registerBTN2 button{
+        position: absolute;
+        top:40.25rem;
+        left:8.25rem ;
+        width: 10.75rem;
+        height: 3.3125rem;
+        border-radius: 0.25rem;
+        background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .star2{
+        position:absolute;
+        top: 46.6rem;
+        left: 35.7rem;
+    }
+    .countdown{
+        position: absolute;
+        top: 48.4rem;
+        left: 8.19rem;
+        right: 68.12rem;
+        width: 18.1875rem;
+    height: 5.3125rem;
+    flex-shrink: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .countdown p{
+        color: #FFF;
+        font-family: Unica One;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height:5.32rem;
+        display: flex;
+    }
+    .countdown p span{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:1.16375rem;
+    display: flex;
+    align-items: end;
+    padding-bottom: 1.19rem;
+    }
+    
+    .rectangle7{
+        position: absolute;
+        top: 59.6rem;
+        left: -1.6rem;
+        right: -1.3rem;
+        width: 97.4375rem;
+    height: 38.5625rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: #140D27;
+    flex-shrink: 0;
+    }
+    .bigIdeaimg{
+    position: absolute;
+    top: 3.14rem;
+    left: 16rem;
+    width: 30.625rem;
+    height: 29.8125rem;
+    flex-shrink: 0;
+    }
+    .bigidea {
+        position: absolute;
+        top: 18.11rem;
+        left: 26.47rem;
+        width: 9.05269rem;
+        height: 3.73463rem;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.8375rem ;
+        flex-shrink: 0;
+    }
+    .puprle2{
+        position: absolute;
+        top: 22.81rem;
+        right: 31rem;
+        width: 64.8125rem;
+        height: 59.25rem;
+        flex-shrink: 0;
+    }
+    .purple3{
+        position: absolute;
+        top: 101rem;
+        left: 70.6rem;
+        right: -1.3rem;
+        width: 25.25rem;
+        height: 59.9375rem;
+        flex-shrink: 0;
+    }
+    .stargra img{
+        position: absolute;
+        top: 73.1rem;
+        left: 82.6remrem;
+        right: 10.1rem;
+        width: 1.3125rem;
+    height: 1.5625rem;
+    flex-shrink: 0;
+    }
+    .rect7Intro {
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        width: 24.875rem;
+        height: 5.375rem;
+        position: absolute;
+        top:12.06rem;
+        left: 53.25rem;
+    }
+    .rect7Intro span{
+        color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%;
+    }
+    .rect7body{
+       position: absolute;
+       top:18.44rem ;
+       left:53.44rem ;
+       right: 10.56rem;
+       color: #FFF;
+       width: 33.4375rem;
+       height: 10.3125rem;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; 
+    
+    }
+    .star3 img{
+        position: absolute;
+        top: 73.1rem;
+        left: 82.6rem;
+        right: 10.1rem;
+        width: 1.875rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    
+    }
+    .arrow img{
+         position: absolute; 
+         top: 90.2rem;
+         left:43.1rem ;
+        width: 3.08938rem;
+    height: 3.62338rem;
+    transform: rotate(-70.92deg);
+    flex-shrink: 0;
+    }
+    .react7body2{
+        position: absolute;
+        top:113.2225rem ;
+        left: 11.5rem;
+        width: 33.4375rem;
+        height: 10.3125rem;
+        left: 11.5rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.71875rem; /* 196.429% */
+    }
+    
+    .ruleandreg{
+        position: absolute;
+        top:106.8525rem ;
+        left:11.31rem ;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    width: 10.625rem;
+    height: 5.375rem;
+    }
+    .ruleandreg span{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    }
+    
+    .ruler{
+        position: absolute;
+        top: 98.2225rem;
+        width: 100%;
+        border: green solid 1px;
+    }
+    .womansit{
+    position: absolute;
+    top: 95.3rem;
+    left: 47.9rem;
+    width: 41.5rem;
+    height: 41.5rem;
+    flex-shrink: 0;
+    }
+    .star02 img{
+        position: absolute;    
+        top: 124rem;
+        left: 46.3rem;
+        width: 1.625rem;
+        height: 2rem;
+        flex-shrink: 0;
+    }
+    .starash img{
+        position: absolute;    
+        top: 105rem;
+        left: 27.4rem;
+        width: 1.625rem;
+        height: 2rem;
+        flex-shrink: 0;
+    }
+    .starpu02{
+        position: absolute;
+        top: 142rem;
+        left: 13.4rem;
+    
+    }
+    .ellipse svg{
+        position: absolute;
+        top: 147rem;
+        left:10.2rem;
+        width: 8.375rem;
+    height: 8.375rem;
+    flex-shrink: 0;
+    }
+    .pie{
+        position: absolute;
+        top: 150rem;
+        left: 4.13rem;
+        width: 44.375rem;
+    height: 36.6875rem;
+    flex-shrink: 0;
+    
+    }
+    .star002 img{
+        position: absolute;
+        top: 184rem;
+        left: 45.8rem;
+    }
+    .star101 img{
+        position: absolute;
+        top: 168rem;
+        left: 29.4rem;
+    }
+    .piePurple img{
+     position: absolute;
+     top: 165rem;
+     left: 55.8rem;
+     right: -26rem;
+     width: 64.8125rem;
+    height: 59.25rem;
+    flex-shrink: 0;
+    }
+    .piePurple1 img{
+        position: absolute;
+        top: 150rem;
+        left: -9.1rem;
+        width: 64.8125rem;
+       height: 59.25rem;
+       flex-shrink: 0;
+       }
+       .pieheader{
+        position: absolute;
+        top: 141.69rem;
+        left: 51.81rem;
+        color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    width: 16.6875rem;
+    height: 5.375rem;
+       }
+    .pieheader span{
+        color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    
+    }
+    .samecolor span{
+    color: #FF26B9;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 173.5%; /* 1.735rem */
+    }
+    .Adherence{
+        position: absolute;
+        top: 174.885rem;
+        left: 51.81rem;
+        width: 35.25rem;
+        height: 4.6875rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 173.5%;
+    }
+    .technical{
+        position: absolute;
+      top: 168.4475rem;
+      left: 51.81rem;
+       width: 34.875rem;
+        height: 4.6875rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+    }
+    .impact{
+        position: absolute;
+        top: 160.82rem;
+        left: 51.81rem;
+       width: 32.75rem;
+        height: 6.1875rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+    }
+    .functionality{
+        position: absolute;
+      top: 154.4425rem;
+      left: 51.81rem;
+         width: 31.8125rem;
+        height: 4.6875rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+    }
+    .innovation{
+      position: absolute;
+      top: 148.375rem;
+      left: 51.81rem;
+        width: 33.3125rem;
+        height: 4.6875rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+    }
+    .rectangle7Button{
+       position: absolute;
+       top: 183rem;
+       right: 31.9rem;
+       width: 10.75rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    }
+    .rectangle7Button button{
+        width: 100%;
+        height: 100%;
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    }
+    .line1{
+        position: absolute;
+       top: 12.1rem;
+       left: 38.8rem;
+       width: 0.25rem;
+    height: 8.5625rem;
+    background: #D434FE;
+    }
+    .line2{
+        position: absolute;
+       top: 25.9rem;
+       left: 38.8rem;
+       width: 0.25rem;
+    height:  5.375rem;
+    background: #D434FE;
+    }
+    .line3{
+        position: absolute;
+        top: 36rem;
+        left: 38.8rem;
+        width: 0.25rem;
+     height: 5.375rem;
+     background: #D434FE;
+    }
+    .line4{
+        position: absolute;
+        top: 46.1rem;
+        left: 38.8rem;
+        width: 0.25rem;
+     height: 5.375rem;
+     background: #D434FE;
+    }
+    .line5{
+        position: absolute;
+       top: 56.3rem;
+       left: 38.8rem;
+       width: 0.25rem;
+    height:5.375rem;
+    background: #D434FE;
+    }
+    .line6{
+        position: absolute;
+       top: 66.3rem;
+       left: 38.8rem;
+       width: 0.25rem;
+    height:5.375rem;
+    background: #D434FE;
+    }
+    
+    .qn01{
+        position: absolute;
+        top: 207.25rem;
+        left:13.44rem ;
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        width: 15.8125rem;
+        height: 5.375rem;
+    }
+    .qn01 span{
+        color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%;
+    }
+    .qn02{
+        position: absolute;
+        top:213.625rem ;
+        left:13.69rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 196.429% */
+    width: 21.375rem;
+    height: 3.4375rem;
+    }
+    .qn02 span{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.71875rem;
+    }
+    .flex01{
+        position:absolute;
+        top: 221.3125rem;
+        left:13.69rem;
+        display: flex;
+        justify-content: space-between;
+        gap:1.5rem ;
+        color: #FFF;
+        width: 26.6875rem;
+        height: 1.75rem;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; 
+    }
+    .flex01 span{
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 137.5% */
+    }
+    .flex02{
+        position:absolute;
+        top: 225.44rem;
+        left:13.69rem;
+        display: flex;
+        justify-content: space-between;
+        gap:1.5rem ;
+        color: #FFF;
+        width: 26.6875rem;
+        height: 1.75rem;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; 
+    padding-bottom: .0.81rem; 
+    }
+    .flex02 span{
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 137.5% */
+    }
+    .flex03{
+        position:absolute;
+        top:229.56rem ;
+        left:13.69rem;
+        display: flex;
+        justify-content: space-between;
+        gap:1.5rem ;
+        color: #FFF;
+        width: 26.6875rem;
+        height: 1.75rem;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; 
+    }
+    .flex03 span{
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 137.5% */
+    }
+    .flex04{
+        position:absolute;
+        top:233.69rem ;
+        left:13.69rem;
+        display: flex;
+        justify-content: space-between;
+        gap:1.5rem ;
+        color: #FFF;
+        width: 26.6875rem;
+        height: 1.75rem;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; 
+    }
+    
+    .flex04 span{
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 137.5% */
+    }
+    .flex05{
+        position:absolute;
+        top:237.81rem;
+        left:13.69rem;
+        display: flex;
+        justify-content: space-between;
+        gap:1.5rem ;
+        color: #FFF;
+        width: 26.6875rem;
+        height: 1.75rem;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; 
+    }
+    .flex05 span{
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 137.5% */
+    }
+    .flex06{
+        position:absolute;
+        top:241.93rem;
+        left:13.69rem;
+        display: flex;
+        justify-content: space-between;
+        gap:1.5rem ;
+        color: #FFF;
+        width: 26.6875rem;
+        height: 1.75rem;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; 
+    }
+    .flex06 span{
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 137.5% */
+    }
+    .flex01 p{
+        width:24.375rem ;
+        height:1.75rem ; 
+     }
+     .flex02 p{
+        width: 22.5625rrem;
+        height:1.75rem ; 
+     }
+     .flex03 p{
+        width:22.1875rem ;
+        height:1.75rem ; 
+     }
+     .flex04 p{
+        width:21.3125rem ;
+        height:1.75rem ; 
+     }
+     .flex05 p{
+        width: 17.75rem;
+        height:1.75rem; 
+     }
+     .flex06 p{
+        width:24.375rem ;
+        height:1.75rem ; 
+     }
+    .flexborder{
+       padding-bottom: 0.8rem;
+        width: fit-content;
+        border: white 20px;
+        width: 26.6875rem;
+       border-bottom: 0.06rem solid #D434FE;
+    }
+    .thinkman{
+        position: absolute;
+        top: 205rem;
+        left: 41.9rem;
+        width: 46.3125rem;
+    height: 46.3125rem;
+    flex-shrink: 0;
+    
+    }
+    .thinkpurple{
+        position: absolute;
+        top: 203rem;
+        left: 63.8rem;
+    }
+    .thinkpurple2{
+        position: absolute;
+        top: 213rem;
+        left: 51.2rem;
+    }
+    .thinkwhite{
+        position: absolute;
+        top: 228rem;
+        left: 45rem;
+    }
+    .thinkwhite2{
+        position: absolute;
+        top: 250rem;
+        left: 76.6rem;
+    
+    }
+    .oneq{
+        position: absolute;
+        right:39.13rem ;
+         top:204.63rem ;   
+     width: 7.125rem;
+    height: 4.4375rem;
+    flex-shrink: 0;
+        color: #A866FD;
+        font-family: MADE TOMMY Outline;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.71875rem; /* 28.646% */
+    }
+    .oneq2{
+        position: absolute;
+        right:19rem ;
+         top:204.63rem ;   
+     width: 7.125rem;
+    height: 4.4375rem;
+    flex-shrink: 0;
+        color: #A866FD;
+        font-family: MADE TOMMY Outline;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.71875rem;
+    }
+    .oneq3{
+        position: absolute;
+        right:30.06rem ;
+         top:201.63rem ;   
+     width: 7.125rem;
+    height: 4.4375rem;
+    flex-shrink: 0;
+        color: #A866FD;
+        font-family: MADE TOMMY Outline;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.71875rem;
+    }
+    .timeline{
+        position: absolute;
+        top: 259rem;
+        left: 8.69rem;
+        width: 77.0625rem;
+        height: 79.875rem;
+        flex-shrink: 0;
+        color: white;
+    }
+    .timepurple{
+        position: absolute;
+        top: 12.1rem;
+        left: 12.4rem;
+    }
+    .getlinkBody{
+        position: absolute;
+        top:63.75rem ;
+        left:7.75rem ;
+        color: #FFF;
+        width:24.125rem;
+        height: 3.375rem;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  1.709rem ;
+    }
+    .timeash{
+        position: absolute;
+        top: 73.3rem;
+        left: 2.38rem;
+    }
+    .timewhite{
+        position: absolute;
+        top: 41.4rem;
+        left: 67.6rem;
+    }
+    .timelineHeader{
+        position: absolute;
+        top: 0;
+        left: 34.19rem;
+        color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    }
+    .timeBody{
+        position: absolute;
+        top: 3.44rem;
+        left: 27.75rem;
+        color: #FFF;
+        width:21.625rem ;
+        height: 3rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5085rem
+    }
+    .circle1{
+        position: absolute;
+        top:21.4rem ;
+        left: 37.3rem;
+    width: 3.3125rem;
+    height: 3.3125rem;
+    flex-shrink: 0;
+    border-radius: 1.65625rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    }
+    .circle2{
+        position: absolute;
+        top:32rem ;
+        left: 37.3rem;
+        width: 3.3125rem;
+        height: 3.3125rem;
+        flex-shrink: 0;
+        border-radius: 1.65625rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    }
+    .circle3{
+        position: absolute;
+        top:42.1rem ;
+        left: 37.3rem;
+        width: 3.3125rem;
+        height: 3.3125rem;
+        flex-shrink: 0;
+        border-radius: 1.65625rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    }
+    .circle4{
+        position: absolute;
+        top:52.1rem ;
+        left: 37.3rem;
+        width: 3.3125rem;
+        height: 3.3125rem;
+        flex-shrink: 0;
+        border-radius: 1.65625rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    }
+    .circle5{
+        position: absolute;
+        top:62.3rem ;
+        left: 37.3rem;
+        width: 3.3125rem;
+        height: 3.3125rem;
+        flex-shrink: 0;
+        border-radius: 1.65625rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    }
+    .circle6{
+        position: absolute;
+        top:72.4rem ;
+        left: 37.3rem;
+        width: 3.3125rem;
+        height: 3.3125rem;
+        flex-shrink: 0;
+        border-radius: 1.65625rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    }
+    #hackHeader{
+    position: absolute;
+    top: 19.69rem;
+    left: 10.44rem;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 21.4375rem;
+    height: 1.8125rem;
+    
+    }
+    #hackBody{
+     position: absolute;
+     top: 22.25rem;
+     left: 4.62rem;
+     width: 27.25rem;
+     height: 3rem;
+     color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  1.49538rem; 
+    text-align: right;
+    width: 27.25rem;
+    height: 3rem;
+    }
+    #novem{
+    position: absolute;
+    top: 32.75rem;
+    left: 17.12rem;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 14.75rem;
+    height: 1.8125rem;
+    }
+    
+    #teams{
+        position: absolute;
+        top: 40.31rem;
+        left: 12.44rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 19.4375rem;
+    height: 1.8125rem;
+    }
+    #intersted{
+        position: absolute;
+        top: 42.87rem;
+        left: 7.62rem;
+        color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  1.709rem;
+    width: 24.25rem;
+    height: 3.375rem;
+    }
+    #novem2{
+        position: absolute;
+        top: 52.87rem;
+        left: 17.12rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 31.9375rem;
+    height: 1.8125rem;
+    width: 14.75rem;
+    height: 1.8125rem;
+    }
+    #getlink{
+        position: absolute;
+        top: 61.19rem;
+        left: 0;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 31.9375rem;
+    height: 1.8125rem;
+    }
+    #getlinkBody{
+        position: absolute;
+        top: 63.75rem;
+        left: 7.75rem;
+        color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:1.709rem;
+    width: 24.125rem;
+    height: 3.375rem;
+    }
+    #novem3{
+        position: absolute;
+        top: 73.44rem;
+        left: 17.12rem;
+        color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.709rem ;
+    width: 14.75rem;
+    height: 1.8125rem;
+    }
+    #asidenov{
+        position: absolute;
+        top: 22.5rem;
+        left: 46.69rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 31.9375rem;
+    height: 1.8125rem;
+    width: 14.75rem;
+    height: 1.8125rem;  
+    }
+    #asidenov2{
+        position: absolute;
+        top:43.31rem;
+        left: 46.69rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 31.9375rem;
+    height: 1.8125rem;
+    width: 14.75rem;
+    height: 1.8125rem;
+    }
+    #teammanage{
+        position: absolute;
+        top:30.69rem;
+        left: 46.69rem;  
+    
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    }
+    #asideinterest{
+    position: absolute;
+    top: 33.25rem;
+    left: 46.69rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%; /* 1.709rem */
+    }
+    #announce{
+        position: absolute;
+        top: 50.81rem;
+        left: 46.69rem;
+        color: #D434FE;
+        width: 30.375rem;
+        height: 3.625rem;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    #asideall{
+        position: absolute;
+        top: 54.88rem;
+        left: 46.69rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:1.709rem ;
+    }
+    #asidenov3{
+        position: absolute;
+        top:63.31rem;
+        left: 46.69rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 31.9375rem;
+    height: 1.8125rem;
+    width: 14.75rem;
+    height: 1.8125rem;
+    
+    }
+    #demoday{
+    position: absolute;
+    top: 70.75rem;
+    left: 46.69rem;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    #lastdiv{
+       position: absolute;
+       top: 74.81rem;
+       left: 46.69rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170.9%; /* 1.709rem */ 
+    }
+    .testimonials{
+        position: absolute;
+        top: 342rem;
+        left: -1.1rem;
+        right: -1.8rem;
+    width: 97.375rem;
+    height: 78.125rem;
+    flex-shrink: 0;
+    
+    }
+    .premiumphoto{
+        position:absolute;
+        top: 4.19rem;
+        bottom: 14.9rem;
+        width: 100%;
+    height: 59.0625rem;
+    flex-shrink: 0;
+    }
+    .premiumphoto p{
+        position: absolute;
+        top: 10.5rem;
+        left: 53.69rem;
+        width: 25.0625rem;
+    height: 3.1875rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.709rem ;
+    }
+    .testipurple1 img{
+    position: absolute;
+    top: 0;
+    left: 1.3rem;
+    right: 31.4rem;
+    width: 64.8125rem;
+    height: 59.25rem;
+    flex-shrink: 0;
+    }
+    .testipurple2 img{
+    position: absolute;
+    top: 18.2rem;
+    left: 71.7rem;
+    width: 25.25rem;
+    height: 59.9375rem;
+    }
+    .pR{
+        width: 10.875rem;
+        height: 4.875rem;
+    position: absolute;
+    top: 8.81rem;
+    left: 53.62rem;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .pR span{
+        color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .cup1{
+        position: absolute;
+        top: 362rem;
+        left: 6.63rem;
+        width: 34.25rem;
+    height: 30.125rem;
+    flex-shrink: 0;
+    }
+    .silver{
+        position: absolute;
+        top: 24.94rem;
+        left: 45.31rem;
+        width: 11.1875rem;
+        height: 11.25rem;
+        flex-shrink: 0;  
+    }
+    .silverdiv{
+        position: absolute;
+        top: 30.19rem;
+        left: 44.31rem;
+        width: 13.25rem;
+        height: 18.5rem;
+        flex-shrink: 0;
+        border-radius: 0.5rem;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    }
+    .digit2{
+        position: absolute;
+        top: 6.94rem;
+        left: 4.38rem;
+        width: 4.5rem;
+        height: 4.875rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 216.4%; /* 4.869rem */
+    }
+    .ruuner{
+        position: absolute;
+        top: 9.94rem;
+        left: 3.75rem;
+        width: 5.75rem;
+        height: 3.35rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 216.4%; /* 3.246rem */
+    }
+    .money300{
+        position: absolute;
+        top: 12.13rem;
+        left: 1.56rem;
+        color: #D434FE;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 216.4%; /* 4.328rem */
+    }
+    .WIN{
+        position: absolute;
+        top: 18.88rem;
+        left: 56.81rem;
+        width: 18.5rem;
+    height: 18.5rem;
+    flex-shrink: 0;
+    }
+    .gold{
+        position: absolute;
+        top:28.06rem;
+        left: 59.14rem;
+        width: 13.25rem;
+    height: 21.6875rem;
+    border-radius: 0.5rem;
+    border: 1px solid #903AFF;
+    background: rgba(144, 58, 255, 0.12);
+    }
+    .first{
+      position: absolute;
+      top: 9.31rem;
+      left: 4.94rem;
+      color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.246rem ;
+    
+    }
+    .Winrunner{
+        position: absolute;
+        top: 12.81rem;
+        left:3.75rem ;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 216.4%; /* 3.246rem */
+    }
+    .money400{
+    position: absolute;
+    top: 16.06rem;
+    left: 1.5rem;
+    color: #903AFF;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.328rem;
+    }
+    .thirdBronze{
+        position: absolute;
+        top: 25.62rem;
+        right:10.81rem ;
+    }
+    .Bronediv{
+        position: absolute;
+        top: 30.19rem;
+        left: 74.31rem;
+        width: 13.25rem;
+        height: 18.5rem;
+        flex-shrink: 0;
+        border-radius: 0.5rem;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    
+    }
+    .digit3{
+        position: absolute;
+        top: 6.94rem;
+        left: 4.69rem;
+        width: 4.5rem;
+        height: 4.875rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 4.869rem */ 
+    }
+    .runner3{
+        position: absolute;
+        top: 9.94rem;
+        left: 3.75rem;
+        width: 5.75rem;
+        height: 3.35rem;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 216.4%; /* 3.246rem */
+    }
+    .money150{
+        position: absolute;
+    top: 12.13rem;
+    left: 1.88rem;
+    color: #903AFF;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.328rem;
+    }
+    .testimonialgra1{
+        position: absolute;
+        top: 9.13rem;
+        left: 20.88rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+      
+    }
+    .testipurple1{
+        position: absolute;
+        top: 54.6rem;
+        left: 72.6rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .testimonailwhitestar{
+        position: absolute;
+        top: 29.6rem;
+        left: 87rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .testimonailwhitestar2{
+        position: absolute;
+        top: 43.5rem;
+        left: 37rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .testimonailwhitestar{
+        position: absolute;
+        top: 29.6rem;
+        left: 87rem;
+    }
+    .premiumWhiteStar{
+        position: absolute;
+        top: 48.69rem;
+        left: 20.31rem;
+        width: 0.9375rem;
+        height: 1.125rem;
+        flex-shrink: 0;
+    }
+    .hiddenstar img{
+        position: absolute;
+        top:364.59rem ;
+        left: 64.2rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .hidden2star{
+        position: absolute;
+        top: 363rem;
+        left: 46.8rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .sponsorp2{
+    position: absolute;
+    top: 425rem;
+    left: 59.1rem;
+    width: 64.8125rem;
+    height: 59.25rem;
+    flex-shrink: 0;
+    
+    
+    }
+    .sponsorp1{
+        position: absolute;
+        top: 396rem;
+        left: -14rem;
+        width: 64.8125rem;
+    height: 59.25rem;
+    flex-shrink: 0;
+    }
+    .PandRs{
+    position: absolute;
+    top: 412.25rem;
+    left: 35.5rem;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.71875rem; 
+    }
+    .PandRbody{
+        position: absolute;
+        top: 415.38rem;
+        left: 33.12rem;
+        color: #FFF;
+        width:28.25rem;
+        height: 3.4375rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 196.429% */
+    }
+    .rectangle22{
+        position: absolute;
+        top: 422.88rem;
+        left: 8rem;
+        width: 78.4375rem;
+    height: 35rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #D434FE;
+    background: rgba(255, 255, 255, 0.01);
+    flex-shrink: 0;
+    }
+    .partnerandsponsordiv{
+        position: absolute;
+        top: 422.88rem;
+        left: 8rem;
+        width: 78.4375rem;
+        height:35rem ;
+    }
+    .rectangle22box{
+        position: absolute;
+        top:9rem;
+        left: 11.9rem;
+    
+        width:56.14602rem ;
+        height: 17rem;
+    }
+    .boxdiv001{
+        position: absolute;
+        top: 0;
+        left: 3.86rem;
+        width: 7.53513rem;
+    height: 7.12163rem;
+    flex-shrink: 0;
+    }
+    .boxdiv002{
+        position: absolute;
+        bottom: 12.45rem;
+        left: 21.18rem;
+        width: 13.32431rem;
+    height: 2.527rem;
+    flex-shrink: 0;
+    }
+    .boxdiv003{
+        position: absolute;
+        left: 43.97rem;
+        bottom: 10.29rem;
+        width: 8.22431rem;
+    height: 6.70813rem;
+    flex-shrink: 0;
+    }
+    .boxdiv004{
+        position: absolute;
+        top: 10.15rem;
+         left: 3.12rem;
+         width: 9.18919rem;
+         height: 6.84594rem;
+         flex-shrink: 0;
+    }
+    .boxdiv005{
+    position: absolute;
+    top: 12.96rem;
+    left: 21.46rem;
+     /* width: 12.773rem; */
+    height: 1.2865rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Typo Hoop Demo;
+    font-size: 3.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 53.922% */
+    }
+    .boxdiv005 span{
+        color: #00A3FF;
+    font-family: Typo Hoop Demo;
+    font-size: 3.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    }
+    .boxdiv006{
+    position: absolute;
+    top: 12.94rem;
+    left: 41.12rem;
+    width: 14.4375rem;
+    height: 1.3125rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Voces;
+    font-size: 2.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 67.073% */
+    
+    }
+    .boxdiv006 span{
+        color: #F00;
+    font-family: Volkhov;
+    font-size: 2.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem;
+    }
+    .boxdiv007{
+    position: absolute;
+    top: 14.44rem;
+    left: 50.07rem;
+    width: 4.9375rem;
+    height: 1.3125rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Voces;
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 250% */
+    }
+    .boxeline1{
+        position: absolute;
+        top: 0;
+        left: 18.1rem;
+        width: 0.25rem;
+    height: 7.02975rem;
+    background: #D434FE;
+    }
+    
+    .boxeline2{
+        position: absolute;
+        top: 0;
+        left: 38.1rem;
+        width: 0.25rem;
+    height: 7.02975rem;
+    background: #D434FE;
+    }
+    .boxeline3{
+        position: absolute;
+        top: 8.73rem;
+        left: 0;
+        width: 16.08113rem;
+    height: 0.25rem;
+    background: #D434FE;
+    }
+    .boxeline4{
+        position: absolute;
+        top: 8.73rem;
+        left: 19.8rem;
+        width: 16.08113rem;
+    height: 0.25rem;
+    background: #D434FE;
+    }
+    .boxeline5{
+     position: absolute;
+    top: 8.73rem;
+    left: 40.1rem;
+    width: 16.08113rem;
+    height: 0.25rem;
+    background: #D434FE;
+        }
+    .boxeline6{
+        position: absolute;
+        top: 9.97rem;
+        left: 18.1rem;
+        width: 0.25rem;
+    height: 7.02975rem;
+    background: #D434FE;
+            }
+    .boxeline7{
+        position: absolute;
+        top: 9.97rem;
+        left: 38.1rem;
+        width: 0.25rem;
+    height: 7.02975rem;
+    background: #D434FE;
+            }
+    
+    .boxstar1{
+        position: absolute;
+        top: 451rem;
+        left: 52.5rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .boxstar2{
+        position: absolute;
+        top: 429rem;
+        left: 52.7rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .boxstar3{
+        position: absolute;
+        top: 420rem;
+        left: 12.9rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .PPand{
+        position: absolute;
+        top: 476.44rem;
+        left: 11.69rem;
+        width: 18.75rem;
+        height: 4.875rem;
+        color: #FFF;
+        font-family: Clash Display;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .PPand span{
+     color: #D434FE;
+    font-family: Clash Display;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .PPand01{
+        position: absolute;
+        top: 482.37rem;
+        left: 11.69rem;
+        width: 16.125rem;
+        height: 1.75rem;
+        color: rgba(255, 255, 255, 0.75);
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71875rem; /* 196.429% */
+    }
+    .PPand02{
+        position: absolute;
+        top: 486rem;
+        left: 11.69rem;
+        width: 27.375rem;
+        height: 3.25rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.4%; /* 1.6485rem */
+    }
+    .rectangle24{
+        position: absolute;
+        top: 494rem;
+        left: 11.7rem;
+        width: 35.5625rem;
+    height: 38rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #D434FE;
+    background: rgba(217, 217, 217, 0.03);
+    flex-shrink: 0;
+    }
+    .lastpurple{
+        position: absolute;
+        top: 499rem;
+        left: -12rem;
+        width: 64.8125rem;
+    height: 59.25rem;
+    flex-shrink: 0;
+    }
+    .atGetlink{
+        position: absolute;
+        top: 3.69rem;
+        width: 26.5625rem;
+        height: 11.25rem;
+        margin: 0 4.5rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 216.4%; /* 1.8935rem */
+    }
+    .atGetlink1{
+        position: absolute;
+        top: 16.44rem;
+        left: 4.56rem;
+        width:8.5rem ;
+        height: 2.1875rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 2.164rem */
+    }
+    .atGetlink2{
+       position: absolute;
+       top: 18.44rem;
+       left: 4.56rem;
+       height: 1.875rem;
+       width: 18.1875rem;
+       color: #FFF;
+       font-family: Montserrat;
+       font-size: 0.875rem;
+       font-style: normal;
+       font-weight: 700;
+       line-height: 216.4%; /* 1.8935rem */
+    }
+    .atGetlink3{
+        position: absolute;
+        top: 21.44rem;
+        left: 6.69rem;
+        width: 25.0625rem;
+        height: 3.75rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 216.4%; /* 1.8935rem */
+    }
+    .atGetlink4{
+        position: absolute;
+        top: 26.31rem;
+        left: 6.69rem;
+        width: 26.4375rem;
+        height: 3.75rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 216.4%; /* 1.8935rem */
+    }
+    .check1{
+      position: absolute;
+      top: 21.81rem;
+      left: 4.75rem;
+      width: 1.0625rem;
+    height: 1.0625rem;
+    flex-shrink: 0;
+    }
+    .check2{
+        position: absolute;
+        top: 26.69rem;
+        left: 4.75rem;
+        width: 1.0625rem;
+      height: 1.0625rem;
+      flex-shrink: 0;
+    }
+    .vector1 svg{
+        position: absolute;
+        top: 472rem;
+        left: 53.7rem;
+        width: 33.125rem;
+    height: 40.5rem;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, rgba(144, 58, 255, 0.14) 0%, rgba(255, 38, 185, 0.14) 100%);
+    }
+    .lockimg{
+        position: absolute;
+        top: 484rem;
+        left: 50.4rem;
+        width: 34.9375rem;
+    height: 46.8125rem;
+    flex-shrink: 0;
+    }
+    .sata01{
+     position: absolute;
+     top: 509rem;
+     left: 61.9rem;
+        width: 0.9375rem;
+        height: 1.125rem;
+        flex-shrink: 0;    
+    
+    }
+    .sata02{
+        position: absolute;
+        top: 482rem;
+        left: 79.1rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    
+    }
+    .sata03{
+        position: absolute;
+        top: 516rem;
+        left: 57.6rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    
+    }
+    .sata04{
+        position: absolute;
+        top: 548rem;
+        left: 6.56rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    
+    }
+    
+    .sata05{
+        position: absolute;
+        top: 556rem;
+        left: 86.1rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    
+    }
+    .sata06{
+        position: absolute;
+        top: 559rem;
+        left: 46.3rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    
+    }
+    .sata07{
+        position: absolute;
+        top: 548rem;
+        left: 66.7rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    
+    }
+    .sata08{
+        position: absolute;
+        top: 519rem;
+        left: 87.1rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .sata09{
+        position: absolute;
+        top: 476rem;
+        left: 32.1rem;
+        width: 1.625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    }
+    .sata10{
+        position: absolute;
+        top: 483rem;
+        left: 45.8rem;
+        width: 1.4375rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+    }
+    .registerend{
+        position: absolute;
+        top: 525rem;
+        left: 24.1rem;
+        width: 10.75rem;
+    height: 3.3125rem;
+    border-radius: 0.25rem;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    }
+    .sata11{
+        position: absolute;
+        top: 518rem;
+        left: 6.25rem;
+        width: 1.875rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    }
+    .rectangle23{
+        position: absolute;
+        top: 542rem;
+        left: -.9rem;
+        width: 96.5625rem;
+    height: 24.5625rem;
+    background: #100B20;
+    flex-shrink: 0;
+    }
+    .footer{
+        position: absolute;
+        top: 4.38rem;
+        left: 14.69rem;
+        width: 67rem;
+    height: 12.5625rem;
+    flex-shrink: 0;
+    color: red;
+    /* background-color: green; */
+    }
+    .footerdiv1{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width:9.94rem ;
+    width: fit-content;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .footerdiv1 span{
+    
+        color: #D434FE;
+    font-family: Clash Display;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    }
+    .footerdiv2{
+        position: absolute;
+        top: 7.06rem;
+        left: 14.69rem;
+        width:25.7525rem ;
+        height:3.9425rem ;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; /* 1.293rem */
+    }
+    .footerdiv3{
+    position: absolute;
+    top: 11.25rem;
+    left: 0;
+     width: 11.625rem;
+    height: 1.3125rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; /* 1.293rem */
+    }
+    
+    #span{
+        width: 0.125rem;
+        height: 1.0625rem;
+        background: #D434FE;
+    }
+    .footerdiv4{
+    position: absolute;
+    top: 0.81rem;
+    left: 37.69rem;
+    height: 1.5rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 172.4%; /* 1.5085rem */
+    }
+    .footerdiv5{
+    position: absolute;
+    top: 2.69rem;
+    left: 37.69rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; /* 1.293rem */
+    }
+    .footerdiv13{
+        position: absolute;
+        top: 4.69rem;
+        left: 37.69rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; /* 1.293rem */
+    }
+    .footerdiv6{
+        position: absolute;
+        top: 6.75rem;
+        left: 37.69rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; /* 1.293rem */
+    }
+    .footerdiv7{
+        position: absolute;
+        top: 8.81rem;
+        left: 37.69rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; /* 1.293rem */
+    }
+    .footerdiv8{
+        position: absolute;
+        top: 11.25rem;
+        left: 37.69rem;
+        color: #D434FE;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .mediaicons{
+        position: absolute;
+        top:15.25rem;
+        left: 57rem;
+        width: 8.0625rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .insta svg{
+    margin: 0;
+        width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    }
+    .twitter svg{
+        
+        width: 1.1875rem;
+       height: 1.0625rem;
+       flex-shrink: 0;
+       fill: #FFF;
+    }
+    .facebook svg{
+    
+        width: 0.65625rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+    fill: #F8F8F8;
+    }
+    .linken svg{
+        width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    }
+    .footerdiv9{
+    position: absolute;
+    top: 0.81rem;
+    left: 59.5rem;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 172.4%; /* 1.5085rem */
+    }
+    .footerdiv10{
+    position: absolute;
+    top: 3.5rem;
+    left: 61.44rem;
+    width: 5.5rem;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .footerdiv11{
+        position: absolute;
+        left: 61.44rem;
+        top: 5.81rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.9%; /* 1.18425rem */
+    width: 5.5625rem;
+    height: 3.5625rem;
+    }
+    .vector22 svg{
+        position: absolute;
+        top: 8rem;
+        left: 74.38rem;
+    
+    }
+    .vector33 svg{
+        position: absolute;
+        top: 10.3rem;
+        left: 74.44rem;
+        width: 0.8125rem;
+    height: 0.9375rem;
+    fill: #F8F8F8;
+    flex-shrink: 0;
+    }
+    
+    .sata001{
+        position: absolute;
+        top: 17.62rem;
+        left: 47.25rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    }
+    .sata77{
+        position: absolute;
+        top: 6.19;
+        left: 67.63rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    }
+    .sata44{
+        position: absolute;
+        top: 6.69rem;
+        left: 7.5rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    }
+    .sata55{
+        position: absolute;
+        top: 14.69rem;
+        left: 87.06rem;
+        width: 0.9375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    }
+    .footerdiv12{
+        position: absolute;
+        top: 20.25rem;
+        left: 41.5rem;
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+     
+    
+      }
